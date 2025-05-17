@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+h2 {
+    text-align: justify;
+    text-indent: 2em;
+    margin-bottom: 18px;
+}
+
+/* Estilo da galeria*/
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.galeria img {
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+}
+
+/*Estilo para as logos da página de contato*/
+.logos{
+align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 15px 0;
+}
+
+/*Estilo dos comentários*/
+.depoimento {
+    background: #f7f7f7;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #0001;
+    padding: 18px 24px;
+    margin: 18px auto;
+    max-width: 500px;
+    font-size: 1.05rem;
+    color: #222;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.depoimento-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depoimento-foto img {
+    border-radius: 50%;
+    border: 2px solid #8bc34a;
+    margin-bottom: 6px;
+}
+
+.depoimento-foto strong {
+    display: flex;
+    align-items: center;
+    color: #254401;
+    font-weight: bold;
+}
+
+/*Estilo do email*/
+.email {
+    color: #1565c0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Estilo para cabeçalho/tópicos*/
+.tópicos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+.tópicos li a {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+
+}
+.tópicos li a:hover,
+.tópicos li a:focus {
+    background: #8bc34a;
+    color: #fff;
+    box-shadow: 0 2px 8px #8bc34a60;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*estilo do texto de todas as páginas*/
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #106813;
+    text-shadow: 1px 2px 8px #8bc34a60;
+    text-indent: 2em;
+    padding: 10px;
+    margin: 30px 0 20px 0;
+    font-weight: bold;
+    background: linear-gradient(to right, #e8f5e9 60%, #f1f8e9 100%);
+    border-radius: 15px;
+    border-bottom: 2px solid #8bc34a;
+    letter-spacing: 2px;
+    box-shadow: #00000049 0px 15px 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: #000000;
+    text-indent: 2em;
+    margin: 24px;
+}
+
+/* Esttilo para as barras de habilidades */
+.cabeçalho{
+    background: linear-gradient(to right, #106813, #8bc34a);
+    padding: 2px;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 0 15px 20px #00000049;
+}
+
+body{
+    background-color: #c5c4c490;
+    font-family: Arial, sans-serif;
+}
+
+.tecnologias{
+    width: 750px;
+    color: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 20px #00000049;
+}
+
+.tecnologias ul{
+    list-style: none;
+}
+
+.tecnologias ul li{
+    margin: 20px;
+}
+
+.tecnologias .barras{
+    background-color: #ccc;
+    display: block;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.barras > span{
+    height: 20px;
+    background: linear-gradient(to right, #106813, #8bc34a);
+    position: absolute;
+}
+
+.html{
+    width: 90%;
+}
+
+.css{
+    width: 80%;
+}
+
+.js{
+    width: 70%;
+}
+
+.python{
+    width: 60%;
+}
+
+.git{
+    width: 95%;
+}
+
+.titulografico{
+    text-indent: 1em 
+}
+
+.skills{
+    width: 750px;
+    color: #000000;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 20px #00000049;
+}
+
+.skills ul{
+    list-style: none;
+}
+
+.skills ul li{
+    margin: 20px;
+}
+
+.skills .barras{
+    background-color: #ccc;
+    display: block;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.design{
+    width: 50%;
+}
+
+.pub{
+    width: 40%;
+}
+
+.office{
+    width: 80%;
+}
+
+.comp{
+    width: 90%;
+}
+
+.equipe{
+    width: 100%;
+}
+
+#skills-tecnologias {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 35px; /* Espaço entre as divs */
+    padding: 20px;
+}
+
+/* Estilo geral do formulário */
+form {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px #00000030;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo dos rótulos */
+form label {
+    font-weight: bold;
+    margin-bottom: -20px;
+    color: #106813;
+}
+
+/* Estilo dos campos de entrada e textarea */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8bc34a;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f7f7f7;
+
+}
+
+form input:focus,
+form textarea:focus {
+    border: 2px solid #106813;
+    outline: none;
+}
+
+/* Estilo do botão de envio */
+form input[type="submit"] {
+    background: linear-gradient(to right, #106813, #8bc34a);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: linear-gradient(to right, #8bc34a, #106813);
+}
